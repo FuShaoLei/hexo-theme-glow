@@ -1,0 +1,11 @@
+
+<article id="post">
+  <div class="post-inner">
+    <div class="post-info">
+      <div class="title">title: <%=page.title%></div>
+      <div class="date" datetime="<%=page.date.toJSON()%>">date: <%=date(page.date,'YYYY-MM-DD HH:MM:SS')%></div>
+    </div>
+      <%-page.content%>
+  </div>
+  
+</article>

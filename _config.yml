@@ -1,0 +1,10 @@
+# 导航栏以及图标 图标网址：https://feathericons.com/
+menu:
+  Home: 
+    - /
+    - home
+  Archives: 
+    - /archives
+    - archive
+
+

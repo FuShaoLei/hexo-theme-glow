@@ -1,0 +1,10 @@
+
+    <div id="menu">
+            <% for (var i in theme.menu){ %>
+                <a class="nav-link" href="<%- url_for(theme.menu[i][0]) %>">
+                    <div class="nav-div">
+                    <i class="ic" data-feather="<% if (theme.menu[i][1]){ %><%= theme.menu[i][1] %><%} else{ %><%= 'hexagon' %><% } %>"></i>
+                   </div>
+                </a>
+            <% } %>
+    </div>

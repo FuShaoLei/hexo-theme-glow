@@ -1,0 +1,170 @@
+*
+  margin 0
+  padding 0
+  text-decoration none
+  list-style none
+
+html
+  height 100%
+body
+  height 100%
+  background-image url(https://cdn.jsdelivr.net/gh/fushaolei/img/20200516201354.jpg)
+  background-size 100%
+  background-attachment fixed
+
+a
+  color #333333
+
+#body
+  display flex
+  height 100%
+  
+
+
+#content
+  text-align center
+  flex-basis 100%
+  padding 20px
+
+#menu
+  display flex
+  flex-direction: row
+  justify-content flex-end
+  .nav-div
+    padding 0px 8px
+    transition 0.2s
+    svg
+      transition 0.2s
+      color #ffffff
+      width 18px
+      margin-top 3px
+    &:hover
+      background #007ACC
+      border-radius 15px
+
+
+#index-posts
+  .index-post-item
+    font-weight bold
+    font-size 2.2em
+    margin 30px 0px
+    .item-a
+      transition 0.2s
+      color #ffffff
+      padding-bottom 4px
+      border-bottom 2px solid #007ACC
+      &:hover
+        color #007ACC
+
+#post
+  text-align left
+  display flex
+  justify-content center
+  .post-inner
+    max-width 900px
+    padding 20px
+  
+
+
+
+#info-content
+  height 100%
+  width 100%
+  display flex
+  justify-content center
+  align-items center
+  flex-direction column
+
+
+.info-avator
+  width 100px
+  height 100px
+  border-radius 100px
+  transition 0.2s
+  box-shadow:  5px 5px 10px #d9d9d9, 
+             -5px -5px 10px #ffffff
+  &:hover
+    transform scale(1.05)
+
+.info-name
+  font-size 1.2em
+  font-weight bold
+
+.info-signature
+  font-size 1em
+  color #333
+  font-weight bold
+
+
+.post-info
+  background #F7F7F7
+  font-size 0.9em
+  padding 5px 15px
+  color #777777
+  border-radius 3px
+  letter-spacing 1px
+
+.post-inner
+  line-height 1.8em
+  color #333333
+  ul,li
+    list-style disc
+    margin-left 15px
+  a
+    color #4183C4
+    text-decoration underline
+  h1
+    font-size 2.1em
+    border-bottom 1px solid #EEEEEE
+  h2
+    font-size 1.7em
+    border-bottom 1px solid #EEEEEE
+  h3
+    font-size 1.4em
+  h1, h2, h3, h4, h5, h6
+    line-height 2em
+    margin 10px 0px
+  blockquote
+    border-left 5px solid #DFE2E5
+    margin 15px 0px
+    padding-left  13px
+    color #777777
+  img, video
+    max-width: 100%
+    height: auto
+    display: block
+    margin: auto
+  code
+    background #F3F4F4
+    font-weight 650
+    font-size 1.1em
+    padding 2px 4px
+  table 
+    padding 0
+    word-break initial
+  tr 
+    border-top 1px solid #dfe2e5
+    margin 0
+    padding 0
+    th 
+      font-weight bold
+      border 1px solid #dfe2e5
+      border-bottom 0
+      margin 0
+      padding 5px 12px
+    td 
+      border 1px solid #dfe2e5
+      margin 0
+      padding 6px 13px
+  table tr:nth-child(2n),
+  thead 
+    background-color #f8f8f8
+  table tr th:first-child,
+  table tr td:first-child 
+    margin-top 0
+  table tr th:last-child,
+  table tr td:last-child 
+    margin-bottom 0
+
+
+

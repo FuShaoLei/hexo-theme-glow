@@ -1,0 +1,9 @@
+<% if (page.posts.length > 0) { %>
+  <div id="index-posts">
+    <% page.posts.sort('date', -1).limit(10).each(post => { %>
+      <div class="index-post-item">
+        <a class="item-a" href="<%=url_for(post.path)%>"><%=post.title%></a>
+      </div>
+    <% }); %>
+  </div>
+<% } %>
